@@ -151,7 +151,7 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if (numero===0 || numero===1){
-    return "falso";
+    return "false";
   }else{
     for (i=0;i<=numero;i++) {
       if (numero%i===0){
@@ -160,6 +160,9 @@ function esPrimo(numero) {
       if (primo>2){
         return "falso";
       }
+    }
+    if (primo===2){
+      return true;
     }
   }
 }
