@@ -217,12 +217,12 @@ function breakStatement(numero) {
   let array=[]
 
   for (i=0; i<10; i++){
+    numero+=2;
+    array.push(numero);
     if (numero===i){
       console.log("Se interrumpió la ejecución");
       break;
     }
-    numero+=2;
-    array.push(numero);
   }
 
   return array;
