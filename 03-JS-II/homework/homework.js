@@ -151,22 +151,22 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   //primo=0
-  if (numero===0 || numero===1){
-    return "false";
-  }else{
+  //if (numero===0 || numero===1){
+  //  return "false";
+  //}else{
     //for (i=0;i<=numero;i++) {
-      if (numero%i===0){
-        primo++;
-      }
-      if (primo>2){
-        return "falso";
-      }
-    }
-    if (primo===2){
-      return true;
-    }
-  }
-}
+    //  if (numero%i===0){
+        //primo++;
+      //}
+      //if (primo>2){
+        //return "falso";
+      //}
+    //}
+    //if (primo===2){
+      //return true;
+    //}
+  //}
+//}
 
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
