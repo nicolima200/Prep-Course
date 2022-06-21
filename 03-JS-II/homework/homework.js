@@ -152,7 +152,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   primo=0
   if (numero==0 || numero==1){
-    return "false";
+    return false;
   }else{
     for (let i=1;i<=numero;i++) {
       if (numero%i===0){
