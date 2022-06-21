@@ -198,7 +198,7 @@ function mayorACien(array) {
   let array1=[]
 
   for (i=0; i<array.length; i++){
-    if (array[i]>100 && array[i]<200){
+    if (array[i]>100 && array[i]<=200){
       array1.push(array[i]);
     }
   }
@@ -217,11 +217,11 @@ function breakStatement(numero) {
   let array=[]
 
   for (i=0; i<10; i++){
-    numero+=2;
     if (numero===i){
       console.log("Se interrumpió la ejecución");
       break;
     }
+    numero+=2;
     array.push(numero);
   }
 
