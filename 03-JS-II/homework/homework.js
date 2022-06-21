@@ -159,7 +159,7 @@ function esPrimo(numero) {
         primo++;
       }
       if (primo>2){
-        return "falso";
+        return false;
       }
     }
     if (primo===2){
