@@ -10,7 +10,7 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[-1];
+  return array[array.length-1];
 }
 
 
@@ -59,8 +59,8 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
   let str=""
-  for (i=0 ;i<array.length;i++){
-    str=str+" "+array[i]
+  for (i=0 ;i<palabras.length;i++){
+    str=str+" "+palabras[i]
   }
   return str;
 }
