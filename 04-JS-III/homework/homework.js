@@ -220,8 +220,7 @@ function breakStatement(numero) {
     numero+=2;
     array.push(numero);
     if (numero===i){
-      console.log("Se interrumpió la ejecución");
-      break;
+      return "Se interrumpió la ejecución";
     }
   }
 
