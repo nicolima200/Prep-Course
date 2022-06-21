@@ -154,7 +154,7 @@ function esPrimo(numero) {
   if (numero===0 || numero===1){
     return "false";
   }else{
-    for (i=0;i<=numero;i++) {
+    //for (i=0;i<=numero;i++) {
       if (numero%i===0){
         primo++;
       }
