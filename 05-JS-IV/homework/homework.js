@@ -7,9 +7,13 @@ function crearGato (nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   var cat={
-    nombre: this.nombre,
-    edad: this.edad
-    }  
+    nombre: nombre,
+    edad: edad,
+    meow: function(){
+      return "Meow!"
+    }
+    }
+    return cat;  
   }
 
 function agregarPropiedad (objeto, property) {
