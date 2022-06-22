@@ -7,8 +7,8 @@ function crearGato (nombre, edad) {
   // Devuelve el objeto
   // Tu código:
   var cat={
-    nombre: nombre,
-    edad: edad
+    nombre: this.nombre,
+    edad: this.edad
     }  
   }
 
