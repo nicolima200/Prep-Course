@@ -67,6 +67,10 @@ function agregarStringInvertida() {
       this.edad=edad;
       this.domicilio=domicilio;
     }
+
+    detalle(){
+      return this;
+    }
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
