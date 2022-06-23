@@ -44,7 +44,7 @@ function agregarStringInvertida() {
       reverse.push(this[i])
     }
     reverse=reverse.reverse();
-    reverse=reverse.join();
+    reverse=reverse.join('');
     return reverse;
   }
 }
