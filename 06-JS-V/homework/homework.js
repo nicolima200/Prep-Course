@@ -75,6 +75,7 @@ function agregarStringInvertida() {
         }    
     }
     
+  }
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
