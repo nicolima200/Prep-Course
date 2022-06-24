@@ -42,8 +42,8 @@ function map(array, cb) {
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var array1=array.map(cb(val))
-  
+  var array1=array.map(cb(val));
+  return array1;
 }
 
 function filter(array) {
