@@ -60,7 +60,7 @@ function agregarStringInvertida() {
     //   Domicilio: 'Saavedra 123'
     //  }
 
-  function Persona(nombre,apellido,edad,domicilio){
+  function crearInstanciaPersona(nombre,apellido,edad,domicilio){
     this.nombre=nombre,
     this.apellido=apellido,
     this.edad=edad,
