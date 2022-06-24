@@ -28,7 +28,7 @@ function sumarArray(numeros, cb) {
   var suma=numeros.reduce(acc,elemento)
   cb(suma)
 
-  }
+  
 }
 
 function forEach(array, cb) {
